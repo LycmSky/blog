@@ -1,0 +1,13 @@
+.site-name {
+    font-style: italic;
+  }
+
+.blog-hero h1 {
+    font-style: italic;
+}
+
+// 主页背景图片模糊
+.blog-hero.fullscreen .mask{
+    filter: blur(3px);
+    transform: scale(1.02)
+}
