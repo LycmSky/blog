@@ -39,7 +39,7 @@ export default hopeTheme({
     "/articles/": "structure",
   },
 
-  footer: "没有了，真的没有了",
+  footer: '<a href="https://beian.miit.gov.cn/" target="_blank">鄂ICP备20003020号-1</a> | <a href="/about">关于本站</a>',
 
   displayFooter: true,
 
