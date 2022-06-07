@@ -18,5 +18,5 @@ projects: # 项目卡片
   - icon: article # 图标
     name: 卡片模板2 # 项目名称
     desc: 这是一个卡片模板 # 项目描述
-    link: /articles # 链接
+    link: /articles/ # 链接
 ---

@@ -7,7 +7,7 @@ export default defineUserConfig({
   title: "Lycm",
   description: "Lycm的博客",
   head: [['link', { rel: 'icon', href: '/Icon/logo.svg' }]],
-  base: "/",
+  base: "/blog/",
 
   theme,
   plugins: [
