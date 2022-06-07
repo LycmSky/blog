@@ -46,7 +46,7 @@ export default hopeTheme({
   pageInfo: ["Author", "Original", "Date", "Category", "Tag", "Word", "ReadingTime"],
 
   blog: {
-    avatar: "/Image/1.png",
+    avatar: "/Image/headshot.png",
     roundAvatar: true,
     description: "人 菜 瘾 大",
     intro: "/about",
