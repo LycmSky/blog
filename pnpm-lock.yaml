@@ -5,6 +5,7 @@ specifiers:
   '@vuepress/plugin-search': 2.0.0-beta.46
   vue: ^3.2.36
   vuepress: ^2.0.0-beta.46
+  vuepress-plugin-comment2: 2.0.0-beta.79
   vuepress-plugin-copy-code2: 2.0.0-beta.79
   vuepress-plugin-pwa2: 2.0.0-beta.79
   vuepress-plugin-seo2: 2.0.0-beta.79
@@ -16,6 +17,7 @@ devDependencies:
   '@vuepress/plugin-search': 2.0.0-beta.46
   vue: 3.2.36
   vuepress: 2.0.0-beta.46_n4rffxklnidyxbcijdu3ibrqha
+  vuepress-plugin-comment2: 2.0.0-beta.79
   vuepress-plugin-copy-code2: 2.0.0-beta.79
   vuepress-plugin-pwa2: 2.0.0-beta.79
   vuepress-plugin-seo2: 2.0.0-beta.79
@@ -4416,6 +4418,28 @@ packages:
       vue-router: 4.0.15_vue@3.2.36
       vuepress-plugin-sass-palette: 2.0.0-beta.75
       vuepress-shared: 2.0.0-beta.75
+    transitivePeerDependencies:
+      - '@vue/composition-api'
+      - supports-color
+    dev: true
+
+  /vuepress-plugin-comment2/2.0.0-beta.79:
+    resolution: {integrity: sha512-+AGYeDXf4iCW/BhTaPYNcNAb2XagwQ9jpSArvrfaCBp3xmR1khpGaXcW0Nrq+IudfrVUYbhLnfbX0CZQerNUPw==}
+    peerDependencies:
+      sass-loader: ^13.0.0
+    peerDependenciesMeta:
+      sass-loader:
+        optional: true
+    dependencies:
+      '@vuepress/client': 2.0.0-beta.46
+      '@vuepress/utils': 2.0.0-beta.46
+      '@waline/client': 2.5.1
+      giscus: 1.0.5
+      twikoo: 1.5.11
+      vue: 3.2.36
+      vue-router: 4.0.15_vue@3.2.36
+      vuepress-plugin-sass-palette: 2.0.0-beta.79
+      vuepress-shared: 2.0.0-beta.79
     transitivePeerDependencies:
       - '@vue/composition-api'
       - supports-color

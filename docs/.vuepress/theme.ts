@@ -14,11 +14,11 @@ export default hopeTheme({
     SHANGENGZI: "#61649f",
     QUNQING: "#1772b4",
   },
-  hostname: "https://vuepress-theme-hope-v2-demo.mrhope.site",
+  hostname: "https://blog.lycm.xyz",
 
   author: {
     name: "Lycm",
-    url: "https://mrhope.site",
+    url: "https://blog.lycm.xyz",
   },
 
   iconAssets: "//at.alicdn.com/t/font_3443434_gl5e8ycvkb.css",
