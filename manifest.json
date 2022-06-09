@@ -1,0 +1,23 @@
+{
+  "name": "Lycm-blog",
+  "short_name": "lycm",
+  "description": "the blog by lycm",
+  "lang": "zh-CN",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+        "src": "/Icon/logo388.png",
+        "sizes": "388x388",
+        "type": "image/png"
+    },
+    {
+        "src": "/Icon/logo465.png",
+        "sizes": "465x465",
+        "type": "image/png"
+    }
+  ],
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#46bd87"
+}
