@@ -4,7 +4,11 @@ export default navbar(
   [
   "/",
   "/projects/",
-  "/articles/",
+  {
+    text: "文章",
+    icon: "edit",
+    link: "/articles/",
+  },
   {
     text: "时间轴",
     icon: "rcd-clock",

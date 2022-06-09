@@ -7,7 +7,11 @@
 }
 
 // 主页背景图片模糊
-.blog-hero.fullscreen .mask{
+.blog-hero.fullscreen .mask {
     filter: blur(3px);
     transform: scale(1.02)
+}
+
+.articles main div h1{
+    text-align: center;
 }
