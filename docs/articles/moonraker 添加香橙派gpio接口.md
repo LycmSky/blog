@@ -35,7 +35,7 @@ tag: # 标签
 配置上，moonraker 给出了设备电源控制的方案，十分契合我们的需求。当然不仅于此，正如其名字`电源控制方案`，像什么灯光啥的我们手动开关的设备其实都适合通过这种方法配置。  
 
 使用上，配置完成后moonraker会在侧边栏添加一个开关，我们在fluidd页面可以很轻松的操作。
-- 美观
+- 美观  
 ![](https://img.lycm.xyz/img/20220612192556.png)
 
 
@@ -51,7 +51,7 @@ GPIO引脚的编号方式有很多种，这里moonraker配置用到的是GPIO序
 引脚号指物理引脚编号，便于寻找。  
 序号指要使用的GPIO序号
 :::
-####  查询文档
+####  查询文档  
 ![](https://img.lycm.xyz/img/20220612193914.png)
 根据文档可知，26号引脚的序号是74
 #### 使用wiringOP
@@ -144,12 +144,12 @@ initial_state: on # 初始状态
 
 ## 遇到的问题
 ### 现象
-添加配置后没有开关
+添加配置后没有开关  
 ![](https://img.lycm.xyz/img/20220612213834.png)
 
 错误提示：
 -   Failed to load power device [power printer] Error parsing option (pin) from section [power printer]
--   Unparsed config option 'pin: gpiochip0/gpio74' detected in section [power printer]. This may be an option no longer available or could be the result of a module that failed to load. In the future this will result in a startup error.
+-   Unparsed config option 'pin: gpiochip0/gpio74' detected in section [power printer]. This may be an option no longer available or could be the result of a module that failed to load. In the future this will result in a startup error.  
 ![](https://img.lycm.xyz/img/20220612214025.png)
 ### 排查过程
 :::info
