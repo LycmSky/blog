@@ -8,6 +8,10 @@ heroFullScreen: true # 背景图片是否全屏
 bgImageStyle: {}
 heroText: Lycm # 博客名称 
 tagline: 热忱之心不可泯灭 # 副标题
+head:
+  - - meta
+    - name: baidu-site-verification
+      content: code-iEG2Rpv8En
 projects: # 项目卡片
 # "link"、"project"、"book"、"article"、"friend"
   - icon: project # 图标
