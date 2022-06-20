@@ -12,6 +12,9 @@ head:
   - - meta
     - name: baidu-site-verification
       content: code-iEG2Rpv8En
+  - - meta
+    - name: google-site-verification
+      content: HyKvL4Gu8fw6UTQQIL69hBGNLvIVDLFv_BMzFAhZ1Uo
 projects: # 项目卡片
 # "link"、"project"、"book"、"article"、"friend"
   - icon: project # 图标
