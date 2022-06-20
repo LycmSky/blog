@@ -21,7 +21,7 @@ export default hopeTheme({
     url: "https://blog.lycm.xyz",
   },
 
-  iconAssets: "//at.alicdn.com/t/font_3443434_gl5e8ycvkb.css",
+  // iconAssets: "//at.alicdn.com/t/font_3443434_gl5e8ycvkb.css",
 
   logo: "/Icon/logo.svg",
 

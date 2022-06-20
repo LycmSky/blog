@@ -11,7 +11,10 @@ export default defineUserConfig({
   lang: "zh-CN",
   title: "Lycm",
   description: "Lycm的博客",
-  head: [['link', { rel: 'icon', href: '/Icon/logo.svg' }]],
+  head: [
+    ['link', { rel: 'icon', href: '/Icon/logo.svg' }],
+    ['link', { rel: "stylesheet", href: "/iconfont/iconfont.css" }]
+  ],
   base: "/",
 
   theme,

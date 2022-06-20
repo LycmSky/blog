@@ -10,3 +10,5 @@ tag: # 标签
 ![IMG](./public/img.png)
 ## 链接项目内其他文章
 [文件B](./%E6%A8%A1%E6%9D%BFB.md)
+## 链接HTML
+<a href="/bom/ibom.html">静态文件!</a>  
