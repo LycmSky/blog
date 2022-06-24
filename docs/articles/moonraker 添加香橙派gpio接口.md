@@ -501,5 +501,9 @@ sudo chmod 777 /dev/gpiochip0
 
 重启 `moonraker` ，错误消失，侧边栏选项正常显示并可以正常工作
 
+::: tip
+如果修改权限之后重启权限又变回去了  
+那么就需要添加将修改权限的命令添加到启动项
+:::
 ## 相关链接
 - [moonraker 配置文档](https://moonraker.readthedocs.io/en/stable/configuration/#power)
