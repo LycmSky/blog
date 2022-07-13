@@ -28,7 +28,8 @@ tag: # 标签
 
 ### 1.3 测试
 将下载下来的ZIP文件解压，并找到其中的 `mingw32.exe` 执行文件，尝试运行，如果没有错误即可进行下一步。
-![](https://img.lycm.xyz/img/20220712173125.png)
+![](https://img.lycm.xyz/img/20220712173125.png)  
+
 
 ## 2. 获取ESP8266_RTOS_SDK
 使用Git从仓库克隆：
@@ -84,7 +85,8 @@ export PATH="$PATH:/G/IOT/ESP8266/xtensa-lx106-elf/bin"
 make menuconfig
 ```
 没问题会出现如下界面  
-![](https://img.lycm.xyz/img/20220712222347.png)
+![](https://img.lycm.xyz/img/20220712222347.png)    
+
 由于只是简单的测试一下，在此配置串口，波特率便可保存退出  
 ### 4.2 编译和烧录
 配置完项目设置之后，使用命令编译文件并上传至开发板
