@@ -9,6 +9,11 @@ tag: # 标签
   - 环境配置
 ---
 
+## 前言
+使用ESP8266也有一段时间了，之前一直使用 Arduino 来开发程序，但慢慢的也会觉得 Arduino 有各种问题。遂准备使用 SDK 进行开发。  
+
+本文参考了乐鑫官方的文档以及网络上的博客文章，参考的文章链接都在[参考资料](#参考资料)，过程中遇到问题看看这些资料或许能找到解决方案。
+
 ## 1. 设置工具链
 [Windows工具链的标准设置](https://docs.espressif.com/projects/esp8266-rtos-sdk/en/latest/get-started/windows-setup.html)
 
@@ -151,6 +156,24 @@ C:\Users\lycm\esp\msys32\opt\xtensa-lx106-elf\bin
 
 在MSYS2目录中找到 `\etc\profile.d\esp32_toolchain.sh`   
 编辑文件在末尾添加： `export LANG="en_Us"` 
+
+### 5.4 配置 include 路径
+可以发现，示例项目中的头文件引入部分有错误。这是因为找不到路径  
+
+将鼠标移上去可以查看错误信息，选择 `快速修复 -> 编辑includePath 设置` 进入设置页面。  
+找到 `包含路径` 在下面添加SDK路径，结尾的 `\**` 表示递归查找此目录
+```json
+C:\Users\lycm\esp\ESP8266_RTOS_SDK\**
+```
+
+![](https://img.lycm.xyz/img/20220714191912.png)
+
+## 结语
+到此，ESP8266 的环境配置就已经完成了。  
+虽然已经有前人留下的资料参考，但实际做起来还是会遇到一些问题。所以自己也记录一份，如果有人遇到同样的问题可以多一个参考。  
+乐鑫说将会把ESP8266的工具链移植到ESP-IDF，可以和ESP32系列通用，希望可以早日上线。  
+
+
 ## 参考资料
 - [ESP8266 系统环境搭建](https://www.cnblogs.com/warcraft/p/16364238.html)  
 - [使用 Eclipse IDE 构建和闪存](https://docs.espressif.com/projects/esp8266-rtos-sdk/en/latest/get-started/eclipse-setup.html)  
