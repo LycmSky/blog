@@ -34,8 +34,9 @@ export default hopeTheme({
 
   // sidebar
   sidebar: {
-    "/projects/": "structure",
-
+    "/projects/模板/": "structure",
+    "/projects/ESP8266_RTOS_SDK/": "structure",
+    
     "/articles/": "structure",
   },
 
