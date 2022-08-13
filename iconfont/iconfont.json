@@ -6,6 +6,34 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "6818262",
+      "name": "technology_chip-proc",
+      "font_class": "technology_chip-proc",
+      "unicode": "ef4a",
+      "unicode_decimal": 61258
+    },
+    {
+      "icon_id": "11935641",
+      "name": "chip",
+      "font_class": "chip",
+      "unicode": "e6bb",
+      "unicode_decimal": 59067
+    },
+    {
+      "icon_id": "21169327",
+      "name": "memory-chip",
+      "font_class": "memory-chip",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "22069130",
+      "name": "hardware-chip",
+      "font_class": "hardware-chip",
+      "unicode": "e9c2",
+      "unicode_decimal": 59842
+    },
+    {
       "icon_id": "12911614",
       "name": "nav-project-off",
       "font_class": "nav-project",
