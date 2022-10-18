@@ -33,12 +33,7 @@ export default hopeTheme({
   navbar: navbar,
 
   // sidebar
-  sidebar: {
-    "/projects/模板/": "structure",
-    "/projects/ESP8266_RTOS_SDK/": "structure",
-    
-    "/articles/": "structure",
-  },
+  sidebar: sidebar,
 
   footer: '<a href="https://beian.miit.gov.cn/" target="_blank">鄂ICP备20003020号-1</a> | <a href="/about">关于本站</a>',
 

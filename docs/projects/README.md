@@ -6,10 +6,10 @@ heroText: false
 tagline: false
 
 features:
-  - title: 项目模板
+  - title: 开源项目合集
     icon: nav-project
-    details: 这是一个模板项目
-    link: /projects/模板
+    details: 优秀开源项目整理、部署流程
+    link: /projects/开源项目合集
 
   - title: ESP8266_RTOS_SDK
     icon: hardware-chip
