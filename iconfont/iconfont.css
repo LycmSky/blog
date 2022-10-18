@@ -1,8 +1,8 @@
 @font-face {
   font-family: "icon"; /* Project id 3443434 */
-  src: url('iconfont.woff2?t=1659926633199') format('woff2'),
-       url('iconfont.woff?t=1659926633199') format('woff'),
-       url('iconfont.ttf?t=1659926633199') format('truetype');
+  src: url('iconfont.woff2?t=1666101890296') format('woff2'),
+       url('iconfont.woff?t=1666101890296') format('woff'),
+       url('iconfont.ttf?t=1666101890296') format('truetype');
 }
 
 .icon {
@@ -11,6 +11,14 @@
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.29-images:before {
+  content: "\e67f";
+}
+
+.V:before {
+  content: "\e6be";
 }
 
 .technology_chip-proc:before {

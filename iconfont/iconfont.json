@@ -6,6 +6,20 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "19114566",
+      "name": "29-图片",
+      "font_class": "29-images",
+      "unicode": "e67f",
+      "unicode_decimal": 59007
+    },
+    {
+      "icon_id": "11752925",
+      "name": "绘画",
+      "font_class": "V",
+      "unicode": "e6be",
+      "unicode_decimal": 59070
+    },
+    {
       "icon_id": "6818262",
       "name": "technology_chip-proc",
       "font_class": "technology_chip-proc",
