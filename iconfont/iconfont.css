@@ -1,8 +1,8 @@
 @font-face {
   font-family: "icon"; /* Project id 3443434 */
-  src: url('iconfont.woff2?t=1666101890296') format('woff2'),
-       url('iconfont.woff?t=1666101890296') format('woff'),
-       url('iconfont.ttf?t=1666101890296') format('truetype');
+  src: url('iconfont.woff2?t=1673008971422') format('woff2'),
+       url('iconfont.woff?t=1673008971422') format('woff'),
+       url('iconfont.ttf?t=1673008971422') format('truetype');
 }
 
 .icon {
@@ -13,8 +13,28 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.29-images:before {
-  content: "\e67f";
+.win:before {
+  content: "\e668";
+}
+
+.usb:before {
+  content: "\e673";
+}
+
+.shipin:before {
+  content: "\e669";
+}
+
+.shipin1:before {
+  content: "\e606";
+}
+
+.sharpicons_usb-stick-confirm:before {
+  content: "\e7e7";
+}
+
+.iso:before {
+  content: "\e66a";
 }
 
 .V:before {
@@ -23,10 +43,6 @@
 
 .technology_chip-proc:before {
   content: "\ef4a";
-}
-
-.chip:before {
-  content: "\e6bb";
 }
 
 .memory-chip:before {

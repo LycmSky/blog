@@ -6,11 +6,46 @@
   "description": "",
   "glyphs": [
     {
-      "icon_id": "19114566",
-      "name": "29-图片",
-      "font_class": "29-images",
-      "unicode": "e67f",
-      "unicode_decimal": 59007
+      "icon_id": "376184",
+      "name": "win",
+      "font_class": "win",
+      "unicode": "e668",
+      "unicode_decimal": 58984
+    },
+    {
+      "icon_id": "1194684",
+      "name": "usb",
+      "font_class": "usb",
+      "unicode": "e673",
+      "unicode_decimal": 58995
+    },
+    {
+      "icon_id": "1447757",
+      "name": "视频",
+      "font_class": "shipin",
+      "unicode": "e669",
+      "unicode_decimal": 58985
+    },
+    {
+      "icon_id": "9597706",
+      "name": "视频",
+      "font_class": "shipin1",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "10571300",
+      "name": "sharpicons_usb-stick-confirm",
+      "font_class": "sharpicons_usb-stick-confirm",
+      "unicode": "e7e7",
+      "unicode_decimal": 59367
+    },
+    {
+      "icon_id": "12600746",
+      "name": "iso",
+      "font_class": "iso",
+      "unicode": "e66a",
+      "unicode_decimal": 58986
     },
     {
       "icon_id": "11752925",
@@ -25,13 +60,6 @@
       "font_class": "technology_chip-proc",
       "unicode": "ef4a",
       "unicode_decimal": 61258
-    },
-    {
-      "icon_id": "11935641",
-      "name": "chip",
-      "font_class": "chip",
-      "unicode": "e6bb",
-      "unicode_decimal": 59067
     },
     {
       "icon_id": "21169327",
