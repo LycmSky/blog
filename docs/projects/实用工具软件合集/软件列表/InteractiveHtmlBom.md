@@ -7,7 +7,7 @@ tag: # 标签
   - 电子
   - 焊板
 ---
-### 平台支持
+## 平台支持
 - Windows
 - Linux
 - MacOS

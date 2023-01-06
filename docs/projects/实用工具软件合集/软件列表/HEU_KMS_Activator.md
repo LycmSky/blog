@@ -5,7 +5,7 @@ category: # 分类
 tag: # 标签
   - Window激活
 ---
-### 平台支持
+## 平台支持
 - Windows
 
 ## 官网

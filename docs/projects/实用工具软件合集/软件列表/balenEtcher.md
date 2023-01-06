@@ -5,7 +5,7 @@ category: # 分类
 tag: # 标签
   - 烧录
 ---
-### 平台支持
+## 平台支持
 - Windows
 - Linux
 - MacOS
