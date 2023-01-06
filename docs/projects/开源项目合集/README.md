@@ -5,7 +5,7 @@ title: 开源项目合集 # 侧边栏显示的项目名称
 index: false # 本文件不添加到侧边栏
 heroText: 开源项目合集 # home页面显示的标题
 tagline: 优秀开源项目整理、部署 # home页面显示的简介
-heroImage: /Image/76723099_p5.jpg # 图片 绝对路径
+heroImage: /Image/76723099_p5.png # 图片 绝对路径
 
 # 按键
 actions:
